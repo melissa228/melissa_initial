@@ -1,0 +1,69 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 10, 2018, 12:42:48 PM
+    Author     : tdenton
+*/
+
+html, body{
+    background-color: lightgreen;
+    
+}
+nav{
+    background-color: lightblue;
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    top: 0px;
+}
+header{
+    background-color: lightyellow;
+    width: 100%;
+    height: 5%;
+    float: top;
+        
+}
+main{
+    background-color: lightorange;
+}
+footer{
+    background-color: lightcoral;
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    height: 15%;
+}
+aside{
+    background-color: cyan;
+    color: white;
+    position: fixed;
+    top: 10%;
+    width: 10%;
+    height: 80%;
+    
+}
+
+/*
+Define the other class and set specific objects
+*/
+
+.other{
+    background: white;
+    font-size: 24px;
+    
+}
+aside.other{
+    background-color: black;
+    position: fixed;
+    top: 10%;
+    width: 10%;
+    height: 80%;
+    right: 0px;
+}
+div.other{
+    background-color: lightsalmon;
+    
+}
